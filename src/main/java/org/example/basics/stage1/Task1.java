@@ -18,7 +18,16 @@ public class Task1 {
      * @return - "Привет, имя !"
      */
     public static String sayHello(String name) {
-        return System.out.println (Привет, ) + name + System.out.println(!);
-        //TODO implement
+        return "Привет, " + name + " !";
+    }
+
+    /**
+     * Сединить две строки и сделать результат заглавными буквами
+     * @param first например a
+     * @param second например b
+     * @return например  "A B"
+     */
+    public static String concatTwoStringsAndCapitalize(String first, String second) {
+        return null;
     }
 }
