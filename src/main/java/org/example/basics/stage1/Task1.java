@@ -22,9 +22,9 @@ public class Task1 {
     }
 
     /**
-     * Сединить две строки и сделать результат заглавными буквами
-     * @param first например a
-     * @param second например b
+     * Соединить две строки и сделать результат заглавными буквами
+     * @param first например "a"
+     * @param second например "b"
      * @return например  "A B"
      */
     public static String concatTwoStringsAndCapitalize(String first, String second) {
