@@ -18,4 +18,11 @@ class Task1Test {
         String expected = "Привет, Даша !";
         Assertions.assertEquals(expected,actual);
     }
+
+    @Test
+    void concatTwoStringsAndCapitalize() {
+        String actual = Task1.concatTwoStringsAndCapitalize("Даша","Саша");
+        String expected = "ДАША САША";
+        Assertions.assertEquals(expected,actual);
+    }
 }
